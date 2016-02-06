@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23A718591953487200FFEB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718581953487200FFEB8F /* Foundation.framework */; };
+		23A7185B1953487200FFEB8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7185A1953487200FFEB8F /* CoreGraphics.framework */; };
+		23A7185D1953487200FFEB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7185C1953487200FFEB8F /* UIKit.framework */; };
+		23A7185F1953487200FFEB8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7185E1953487200FFEB8F /* CoreData.framework */; };
+		23A718651953487200FFEB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23A718631953487200FFEB8F /* InfoPlist.strings */; };
+		23A718671953487200FFEB8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718661953487200FFEB8F /* main.m */; };
+		23A7186B1953487200FFEB8F /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7186A1953487200FFEB8F /* JWAppDelegate.m */; };
+		23A7186E1953487200FFEB8F /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23A7186C1953487200FFEB8F /* Diary.xcdatamodeld */; };
+		23A718701953487200FFEB8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A7186F1953487200FFEB8F /* Images.xcassets */; };
+		23A718771953487200FFEB8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718761953487200FFEB8F /* XCTest.framework */; };
+		23A718781953487200FFEB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718581953487200FFEB8F /* Foundation.framework */; };
+		23A718791953487200FFEB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7185C1953487200FFEB8F /* UIKit.framework */; };
+		23A7187A1953487200FFEB8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7185E1953487200FFEB8F /* CoreData.framework */; };
+		23A718821953487200FFEB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23A718801953487200FFEB8F /* InfoPlist.strings */; };
+		23A718841953487200FFEB8F /* DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718831953487200FFEB8F /* DiaryTests.m */; };
+		23A7188F19534A7D00FFEB8F /* JWCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7188E19534A7D00FFEB8F /* JWCoreDataStack.m */; };
+		23A7189219534D7200FFEB8F /* JWDiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7189119534D7200FFEB8F /* JWDiaryEntry.m */; };
+		23A7189419534F4600FFEB8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A7189319534F4600FFEB8F /* Main.storyboard */; };
+		23A718971953501B00FFEB8F /* JWEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718961953501B00FFEB8F /* JWEntryViewController.m */; };
+		23A7189A195355A600FFEB8F /* JWEntryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A71899195355A600FFEB8F /* JWEntryListViewController.m */; };
+		23A7189D1953648500FFEB8F /* JWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7189C1953648500FFEB8F /* JWNavigationController.m */; };
+		23A718A01953687400FFEB8F /* JWEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7189F1953687400FFEB8F /* JWEntryCell.m */; };
+		23A718A219546F3500FFEB8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718A119546F3500FFEB8F /* QuartzCore.framework */; };
+		23A718A41954705400FFEB8F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718A31954705400FFEB8F /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23A7187B1953487200FFEB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A7184D1953487200FFEB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23A718541953487200FFEB8F;
+			remoteInfo = Diary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23A718551953487200FFEB8F /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A718581953487200FFEB8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23A7185A1953487200FFEB8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23A7185C1953487200FFEB8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23A7185E1953487200FFEB8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		23A718621953487200FFEB8F /* Diary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diary-Info.plist"; sourceTree = "<group>"; };
+		23A718641953487200FFEB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23A718661953487200FFEB8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23A718681953487200FFEB8F /* Diary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diary-Prefix.pch"; sourceTree = "<group>"; };
+		23A718691953487200FFEB8F /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
+		23A7186A1953487200FFEB8F /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
+		23A7186D1953487200FFEB8F /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
+		23A7186F1953487200FFEB8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23A718751953487200FFEB8F /* DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A718761953487200FFEB8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23A7187F1953487200FFEB8F /* DiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiaryTests-Info.plist"; sourceTree = "<group>"; };
+		23A718811953487200FFEB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23A718831953487200FFEB8F /* DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryTests.m; sourceTree = "<group>"; };
+		23A7188D19534A7D00FFEB8F /* JWCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCoreDataStack.h; sourceTree = "<group>"; };
+		23A7188E19534A7D00FFEB8F /* JWCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCoreDataStack.m; sourceTree = "<group>"; };
+		23A7189019534D7200FFEB8F /* JWDiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWDiaryEntry.h; sourceTree = "<group>"; };
+		23A7189119534D7200FFEB8F /* JWDiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWDiaryEntry.m; sourceTree = "<group>"; };
+		23A7189319534F4600FFEB8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		23A718951953501B00FFEB8F /* JWEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWEntryViewController.h; sourceTree = "<group>"; };
+		23A718961953501B00FFEB8F /* JWEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWEntryViewController.m; sourceTree = "<group>"; };
+		23A71898195355A600FFEB8F /* JWEntryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWEntryListViewController.h; sourceTree = "<group>"; };
+		23A71899195355A600FFEB8F /* JWEntryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWEntryListViewController.m; sourceTree = "<group>"; };
+		23A7189B1953648500FFEB8F /* JWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNavigationController.h; sourceTree = "<group>"; };
+		23A7189C1953648500FFEB8F /* JWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNavigationController.m; sourceTree = "<group>"; };
+		23A7189E1953687400FFEB8F /* JWEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWEntryCell.h; sourceTree = "<group>"; };
+		23A7189F1953687400FFEB8F /* JWEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWEntryCell.m; sourceTree = "<group>"; };
+		23A718A119546F3500FFEB8F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		23A718A31954705400FFEB8F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23A718521953487200FFEB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A718A41954705400FFEB8F /* CoreLocation.framework in Frameworks */,
+				23A718A219546F3500FFEB8F /* QuartzCore.framework in Frameworks */,
+				23A7185B1953487200FFEB8F /* CoreGraphics.framework in Frameworks */,
+				23A7185F1953487200FFEB8F /* CoreData.framework in Frameworks */,
+				23A7185D1953487200FFEB8F /* UIKit.framework in Frameworks */,
+				23A718591953487200FFEB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A718721953487200FFEB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A718771953487200FFEB8F /* XCTest.framework in Frameworks */,
+				23A7187A1953487200FFEB8F /* CoreData.framework in Frameworks */,
+				23A718791953487200FFEB8F /* UIKit.framework in Frameworks */,
+				23A718781953487200FFEB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A7184C1953487200FFEB8F = {
+			isa = PBXGroup;
+			children = (
+				23A718601953487200FFEB8F /* Diary */,
+				23A7187D1953487200FFEB8F /* DiaryTests */,
+				23A718571953487200FFEB8F /* Frameworks */,
+				23A718561953487200FFEB8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23A718561953487200FFEB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23A718551953487200FFEB8F /* Diary.app */,
+				23A718751953487200FFEB8F /* DiaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23A718571953487200FFEB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23A718A31954705400FFEB8F /* CoreLocation.framework */,
+				23A718A119546F3500FFEB8F /* QuartzCore.framework */,
+				23A718581953487200FFEB8F /* Foundation.framework */,
+				23A7185A1953487200FFEB8F /* CoreGraphics.framework */,
+				23A7185C1953487200FFEB8F /* UIKit.framework */,
+				23A7185E1953487200FFEB8F /* CoreData.framework */,
+				23A718761953487200FFEB8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23A718601953487200FFEB8F /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				23A7186F1953487200FFEB8F /* Images.xcassets */,
+				23A7186C1953487200FFEB8F /* Diary.xcdatamodeld */,
+				23A7189E1953687400FFEB8F /* JWEntryCell.h */,
+				23A7189F1953687400FFEB8F /* JWEntryCell.m */,
+				23A7189019534D7200FFEB8F /* JWDiaryEntry.h */,
+				23A7189119534D7200FFEB8F /* JWDiaryEntry.m */,
+				23A7188D19534A7D00FFEB8F /* JWCoreDataStack.h */,
+				23A7188E19534A7D00FFEB8F /* JWCoreDataStack.m */,
+				23A7189319534F4600FFEB8F /* Main.storyboard */,
+				23A718951953501B00FFEB8F /* JWEntryViewController.h */,
+				23A718961953501B00FFEB8F /* JWEntryViewController.m */,
+				23A71898195355A600FFEB8F /* JWEntryListViewController.h */,
+				23A71899195355A600FFEB8F /* JWEntryListViewController.m */,
+				23A7189B1953648500FFEB8F /* JWNavigationController.h */,
+				23A7189C1953648500FFEB8F /* JWNavigationController.m */,
+				23A718611953487200FFEB8F /* Supporting Files */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		23A718611953487200FFEB8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23A718691953487200FFEB8F /* JWAppDelegate.h */,
+				23A7186A1953487200FFEB8F /* JWAppDelegate.m */,
+				23A718621953487200FFEB8F /* Diary-Info.plist */,
+				23A718631953487200FFEB8F /* InfoPlist.strings */,
+				23A718661953487200FFEB8F /* main.m */,
+				23A718681953487200FFEB8F /* Diary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23A7187D1953487200FFEB8F /* DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				23A718831953487200FFEB8F /* DiaryTests.m */,
+				23A7187E1953487200FFEB8F /* Supporting Files */,
+			);
+			path = DiaryTests;
+			sourceTree = "<group>";
+		};
+		23A7187E1953487200FFEB8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23A7187F1953487200FFEB8F /* DiaryTests-Info.plist */,
+				23A718801953487200FFEB8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23A718541953487200FFEB8F /* Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A718871953487200FFEB8F /* Build configuration list for PBXNativeTarget "Diary" */;
+			buildPhases = (
+				23A718511953487200FFEB8F /* Sources */,
+				23A718521953487200FFEB8F /* Frameworks */,
+				23A718531953487200FFEB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diary;
+			productName = Diary;
+			productReference = 23A718551953487200FFEB8F /* Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23A718741953487200FFEB8F /* DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A7188A1953487200FFEB8F /* Build configuration list for PBXNativeTarget "DiaryTests" */;
+			buildPhases = (
+				23A718711953487200FFEB8F /* Sources */,
+				23A718721953487200FFEB8F /* Frameworks */,
+				23A718731953487200FFEB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23A7187C1953487200FFEB8F /* PBXTargetDependency */,
+			);
+			name = DiaryTests;
+			productName = DiaryTests;
+			productReference = 23A718751953487200FFEB8F /* DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23A7184D1953487200FFEB8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jake;
+				TargetAttributes = {
+					23A718741953487200FFEB8F = {
+						TestTargetID = 23A718541953487200FFEB8F;
+					};
+				};
+			};
+			buildConfigurationList = 23A718501953487200FFEB8F /* Build configuration list for PBXProject "Diary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23A7184C1953487200FFEB8F;
+			productRefGroup = 23A718561953487200FFEB8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23A718541953487200FFEB8F /* Diary */,
+				23A718741953487200FFEB8F /* DiaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23A718531953487200FFEB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A7189419534F4600FFEB8F /* Main.storyboard in Resources */,
+				23A718651953487200FFEB8F /* InfoPlist.strings in Resources */,
+				23A718701953487200FFEB8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A718731953487200FFEB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A718821953487200FFEB8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23A718511953487200FFEB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A7189D1953648500FFEB8F /* JWNavigationController.m in Sources */,
+				23A7186E1953487200FFEB8F /* Diary.xcdatamodeld in Sources */,
+				23A718A01953687400FFEB8F /* JWEntryCell.m in Sources */,
+				23A7189219534D7200FFEB8F /* JWDiaryEntry.m in Sources */,
+				23A718671953487200FFEB8F /* main.m in Sources */,
+				23A7188F19534A7D00FFEB8F /* JWCoreDataStack.m in Sources */,
+				23A7186B1953487200FFEB8F /* JWAppDelegate.m in Sources */,
+				23A7189A195355A600FFEB8F /* JWEntryListViewController.m in Sources */,
+				23A718971953501B00FFEB8F /* JWEntryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A718711953487200FFEB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A718841953487200FFEB8F /* DiaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23A7187C1953487200FFEB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23A718541953487200FFEB8F /* Diary */;
+			targetProxy = 23A7187B1953487200FFEB8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23A718631953487200FFEB8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A718641953487200FFEB8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23A718801953487200FFEB8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A718811953487200FFEB8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23A718851953487200FFEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23A718861953487200FFEB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23A718881953487200FFEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				INFOPLIST_FILE = "Diary/Diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23A718891953487200FFEB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				INFOPLIST_FILE = "Diary/Diary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		23A7188B1953487200FFEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diary.app/Diary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DiaryTests/DiaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23A7188C1953487200FFEB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diary.app/Diary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diary/Diary-Prefix.pch";
+				INFOPLIST_FILE = "DiaryTests/DiaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23A718501953487200FFEB8F /* Build configuration list for PBXProject "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A718851953487200FFEB8F /* Debug */,
+				23A718861953487200FFEB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23A718871953487200FFEB8F /* Build configuration list for PBXNativeTarget "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A718881953487200FFEB8F /* Debug */,
+				23A718891953487200FFEB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23A7188A1953487200FFEB8F /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A7188B1953487200FFEB8F /* Debug */,
+				23A7188C1953487200FFEB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23A7186C1953487200FFEB8F /* Diary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23A7186D1953487200FFEB8F /* Diary.xcdatamodel */,
+			);
+			currentVersion = 23A7186D1953487200FFEB8F /* Diary.xcdatamodel */;
+			path = Diary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23A7184D1953487200FFEB8F /* Project object */;
+}

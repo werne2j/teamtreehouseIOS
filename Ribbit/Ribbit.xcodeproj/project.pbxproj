@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23692580195898AA00496CC8 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2369257F195898AA00496CC8 /* TPKeyboardAvoidingScrollView.m */; };
+		236925861958A6B700496CC8 /* MSCellAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 236925831958A6B700496CC8 /* MSCellAccessory.m */; };
+		236925871958A6B700496CC8 /* UIView+AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236925851958A6B700496CC8 /* UIView+AccessViewController.m */; };
+		2369258A1958AFDC00496CC8 /* GravatarUrlBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 236925891958AFDC00496CC8 /* GravatarUrlBuilder.m */; };
+		23A717DC1951CDBD00FFEB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A717DB1951CDBD00FFEB8F /* Foundation.framework */; };
+		23A717DE1951CDBD00FFEB8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A717DD1951CDBD00FFEB8F /* CoreGraphics.framework */; };
+		23A717E01951CDBD00FFEB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A717DF1951CDBD00FFEB8F /* UIKit.framework */; };
+		23A717E61951CDBD00FFEB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23A717E41951CDBD00FFEB8F /* InfoPlist.strings */; };
+		23A717E81951CDBD00FFEB8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A717E71951CDBD00FFEB8F /* main.m */; };
+		23A717EC1951CDBD00FFEB8F /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A717EB1951CDBD00FFEB8F /* JWAppDelegate.m */; };
+		23A717EE1951CDBD00FFEB8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A717ED1951CDBD00FFEB8F /* Images.xcassets */; };
+		23A717F51951CDBD00FFEB8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A717F41951CDBD00FFEB8F /* XCTest.framework */; };
+		23A717F61951CDBD00FFEB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A717DB1951CDBD00FFEB8F /* Foundation.framework */; };
+		23A717F71951CDBD00FFEB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A717DF1951CDBD00FFEB8F /* UIKit.framework */; };
+		23A717FF1951CDBD00FFEB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23A717FD1951CDBD00FFEB8F /* InfoPlist.strings */; };
+		23A718011951CDBD00FFEB8F /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718001951CDBD00FFEB8F /* RibbitTests.m */; };
+		23A7180B1951CDCE00FFEB8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A7180A1951CDCE00FFEB8F /* Main.storyboard */; };
+		23A7181B1951D51500FFEB8F /* JWInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7181A1951D51500FFEB8F /* JWInboxViewController.m */; };
+		23A7181D1951DC8F00FFEB8F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7181C1951DC8F00FFEB8F /* Parse.framework */; };
+		23A718271951DD0300FFEB8F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7181E1951DD0200FFEB8F /* AudioToolbox.framework */; };
+		23A718281951DD0300FFEB8F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7181F1951DD0200FFEB8F /* CFNetwork.framework */; };
+		23A718291951DD0300FFEB8F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718201951DD0200FFEB8F /* CoreLocation.framework */; };
+		23A7182A1951DD0300FFEB8F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718211951DD0200FFEB8F /* libz.1.1.3.dylib */; };
+		23A7182B1951DD0300FFEB8F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718221951DD0300FFEB8F /* MobileCoreServices.framework */; };
+		23A7182C1951DD0300FFEB8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718231951DD0300FFEB8F /* QuartzCore.framework */; };
+		23A7182D1951DD0300FFEB8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718241951DD0300FFEB8F /* Security.framework */; };
+		23A7182E1951DD0300FFEB8F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718251951DD0300FFEB8F /* StoreKit.framework */; };
+		23A7182F1951DD0300FFEB8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A718261951DD0300FFEB8F /* SystemConfiguration.framework */; };
+		23A718321951DEC700FFEB8F /* JWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718311951DEC700FFEB8F /* JWLoginViewController.m */; };
+		23A718351951DED500FFEB8F /* JWSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718341951DED500FFEB8F /* JWSignupViewController.m */; };
+		23A718381951FDED00FFEB8F /* JWEditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A718371951FDED00FFEB8F /* JWEditFriendsViewController.m */; };
+		23A7183B19520BBF00FFEB8F /* JWFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7183A19520BBF00FFEB8F /* JWFriendsViewController.m */; };
+		23A7183E1952175100FFEB8F /* JWCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A7183D1952175100FFEB8F /* JWCameraViewController.m */; };
+		23A71849195327EB00FFEB8F /* JWImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A71848195327EB00FFEB8F /* JWImageViewController.m */; };
+		23A7184B195332C800FFEB8F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A7184A195332C800FFEB8F /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23A717F81951CDBD00FFEB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23A717D01951CDBD00FFEB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23A717D71951CDBD00FFEB8F;
+			remoteInfo = Ribbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2369257E195898AA00496CC8 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		2369257F195898AA00496CC8 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		236925821958A6B700496CC8 /* MSCellAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCellAccessory.h; sourceTree = "<group>"; };
+		236925831958A6B700496CC8 /* MSCellAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCellAccessory.m; sourceTree = "<group>"; };
+		236925841958A6B700496CC8 /* UIView+AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AccessViewController.h"; sourceTree = "<group>"; };
+		236925851958A6B700496CC8 /* UIView+AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AccessViewController.m"; sourceTree = "<group>"; };
+		236925881958AFDC00496CC8 /* GravatarUrlBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravatarUrlBuilder.h; sourceTree = "<group>"; };
+		236925891958AFDC00496CC8 /* GravatarUrlBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravatarUrlBuilder.m; sourceTree = "<group>"; };
+		23A717D81951CDBD00FFEB8F /* Ribbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A717DB1951CDBD00FFEB8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23A717DD1951CDBD00FFEB8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23A717DF1951CDBD00FFEB8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23A717E31951CDBD00FFEB8F /* Ribbit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ribbit-Info.plist"; sourceTree = "<group>"; };
+		23A717E51951CDBD00FFEB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23A717E71951CDBD00FFEB8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23A717E91951CDBD00FFEB8F /* Ribbit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ribbit-Prefix.pch"; sourceTree = "<group>"; };
+		23A717EA1951CDBD00FFEB8F /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
+		23A717EB1951CDBD00FFEB8F /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
+		23A717ED1951CDBD00FFEB8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23A717F31951CDBD00FFEB8F /* RibbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A717F41951CDBD00FFEB8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23A717FC1951CDBD00FFEB8F /* RibbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RibbitTests-Info.plist"; sourceTree = "<group>"; };
+		23A717FE1951CDBD00FFEB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23A718001951CDBD00FFEB8F /* RibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitTests.m; sourceTree = "<group>"; };
+		23A7180A1951CDCE00FFEB8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		23A718191951D51500FFEB8F /* JWInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWInboxViewController.h; sourceTree = "<group>"; };
+		23A7181A1951D51500FFEB8F /* JWInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWInboxViewController.m; sourceTree = "<group>"; };
+		23A7181C1951DC8F00FFEB8F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		23A7181E1951DD0200FFEB8F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		23A7181F1951DD0200FFEB8F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		23A718201951DD0200FFEB8F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23A718211951DD0200FFEB8F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		23A718221951DD0300FFEB8F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		23A718231951DD0300FFEB8F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		23A718241951DD0300FFEB8F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		23A718251951DD0300FFEB8F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		23A718261951DD0300FFEB8F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23A718301951DEC700FFEB8F /* JWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLoginViewController.h; sourceTree = "<group>"; };
+		23A718311951DEC700FFEB8F /* JWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLoginViewController.m; sourceTree = "<group>"; };
+		23A718331951DED500FFEB8F /* JWSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWSignupViewController.h; sourceTree = "<group>"; };
+		23A718341951DED500FFEB8F /* JWSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWSignupViewController.m; sourceTree = "<group>"; };
+		23A718361951FDED00FFEB8F /* JWEditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWEditFriendsViewController.h; sourceTree = "<group>"; };
+		23A718371951FDED00FFEB8F /* JWEditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWEditFriendsViewController.m; sourceTree = "<group>"; };
+		23A7183919520BBF00FFEB8F /* JWFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFriendsViewController.h; sourceTree = "<group>"; };
+		23A7183A19520BBF00FFEB8F /* JWFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFriendsViewController.m; sourceTree = "<group>"; };
+		23A7183C1952175100FFEB8F /* JWCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCameraViewController.h; sourceTree = "<group>"; };
+		23A7183D1952175100FFEB8F /* JWCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCameraViewController.m; sourceTree = "<group>"; };
+		23A71847195327EB00FFEB8F /* JWImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWImageViewController.h; sourceTree = "<group>"; };
+		23A71848195327EB00FFEB8F /* JWImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWImageViewController.m; sourceTree = "<group>"; };
+		23A7184A195332C800FFEB8F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23A717D51951CDBD00FFEB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A7184B195332C800FFEB8F /* MediaPlayer.framework in Frameworks */,
+				23A718271951DD0300FFEB8F /* AudioToolbox.framework in Frameworks */,
+				23A718281951DD0300FFEB8F /* CFNetwork.framework in Frameworks */,
+				23A718291951DD0300FFEB8F /* CoreLocation.framework in Frameworks */,
+				23A7182A1951DD0300FFEB8F /* libz.1.1.3.dylib in Frameworks */,
+				23A7182B1951DD0300FFEB8F /* MobileCoreServices.framework in Frameworks */,
+				23A7182C1951DD0300FFEB8F /* QuartzCore.framework in Frameworks */,
+				23A7182D1951DD0300FFEB8F /* Security.framework in Frameworks */,
+				23A7182E1951DD0300FFEB8F /* StoreKit.framework in Frameworks */,
+				23A7182F1951DD0300FFEB8F /* SystemConfiguration.framework in Frameworks */,
+				23A717DE1951CDBD00FFEB8F /* CoreGraphics.framework in Frameworks */,
+				23A717E01951CDBD00FFEB8F /* UIKit.framework in Frameworks */,
+				23A7181D1951DC8F00FFEB8F /* Parse.framework in Frameworks */,
+				23A717DC1951CDBD00FFEB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A717F01951CDBD00FFEB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A717F51951CDBD00FFEB8F /* XCTest.framework in Frameworks */,
+				23A717F71951CDBD00FFEB8F /* UIKit.framework in Frameworks */,
+				23A717F61951CDBD00FFEB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236925811958A6B700496CC8 /* MSCellAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				236925821958A6B700496CC8 /* MSCellAccessory.h */,
+				236925831958A6B700496CC8 /* MSCellAccessory.m */,
+				236925841958A6B700496CC8 /* UIView+AccessViewController.h */,
+				236925851958A6B700496CC8 /* UIView+AccessViewController.m */,
+			);
+			path = MSCellAccessory;
+			sourceTree = "<group>";
+		};
+		23A717CF1951CDBD00FFEB8F = {
+			isa = PBXGroup;
+			children = (
+				23A717E11951CDBD00FFEB8F /* Ribbit */,
+				23A717FA1951CDBD00FFEB8F /* RibbitTests */,
+				23A717DA1951CDBD00FFEB8F /* Frameworks */,
+				23A717D91951CDBD00FFEB8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23A717D91951CDBD00FFEB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23A717D81951CDBD00FFEB8F /* Ribbit.app */,
+				23A717F31951CDBD00FFEB8F /* RibbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23A717DA1951CDBD00FFEB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23A7184A195332C800FFEB8F /* MediaPlayer.framework */,
+				23A7181E1951DD0200FFEB8F /* AudioToolbox.framework */,
+				23A7181F1951DD0200FFEB8F /* CFNetwork.framework */,
+				23A718201951DD0200FFEB8F /* CoreLocation.framework */,
+				23A718211951DD0200FFEB8F /* libz.1.1.3.dylib */,
+				23A718221951DD0300FFEB8F /* MobileCoreServices.framework */,
+				23A718231951DD0300FFEB8F /* QuartzCore.framework */,
+				23A718241951DD0300FFEB8F /* Security.framework */,
+				23A718251951DD0300FFEB8F /* StoreKit.framework */,
+				23A718261951DD0300FFEB8F /* SystemConfiguration.framework */,
+				23A7181C1951DC8F00FFEB8F /* Parse.framework */,
+				23A717DB1951CDBD00FFEB8F /* Foundation.framework */,
+				23A717DD1951CDBD00FFEB8F /* CoreGraphics.framework */,
+				23A717DF1951CDBD00FFEB8F /* UIKit.framework */,
+				23A717F41951CDBD00FFEB8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23A717E11951CDBD00FFEB8F /* Ribbit */ = {
+			isa = PBXGroup;
+			children = (
+				23A7180A1951CDCE00FFEB8F /* Main.storyboard */,
+				23A717ED1951CDBD00FFEB8F /* Images.xcassets */,
+				23A717E21951CDBD00FFEB8F /* Supporting Files */,
+				23A718191951D51500FFEB8F /* JWInboxViewController.h */,
+				23A7181A1951D51500FFEB8F /* JWInboxViewController.m */,
+				23A718301951DEC700FFEB8F /* JWLoginViewController.h */,
+				23A718311951DEC700FFEB8F /* JWLoginViewController.m */,
+				23A718331951DED500FFEB8F /* JWSignupViewController.h */,
+				23A718341951DED500FFEB8F /* JWSignupViewController.m */,
+				23A718361951FDED00FFEB8F /* JWEditFriendsViewController.h */,
+				23A718371951FDED00FFEB8F /* JWEditFriendsViewController.m */,
+				23A7183919520BBF00FFEB8F /* JWFriendsViewController.h */,
+				23A7183A19520BBF00FFEB8F /* JWFriendsViewController.m */,
+				23A7183C1952175100FFEB8F /* JWCameraViewController.h */,
+				23A7183D1952175100FFEB8F /* JWCameraViewController.m */,
+				23A71847195327EB00FFEB8F /* JWImageViewController.h */,
+				23A71848195327EB00FFEB8F /* JWImageViewController.m */,
+				2369257E195898AA00496CC8 /* TPKeyboardAvoidingScrollView.h */,
+				2369257F195898AA00496CC8 /* TPKeyboardAvoidingScrollView.m */,
+				236925881958AFDC00496CC8 /* GravatarUrlBuilder.h */,
+				236925891958AFDC00496CC8 /* GravatarUrlBuilder.m */,
+				236925811958A6B700496CC8 /* MSCellAccessory */,
+			);
+			path = Ribbit;
+			sourceTree = "<group>";
+		};
+		23A717E21951CDBD00FFEB8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23A717EA1951CDBD00FFEB8F /* JWAppDelegate.h */,
+				23A717EB1951CDBD00FFEB8F /* JWAppDelegate.m */,
+				23A717E31951CDBD00FFEB8F /* Ribbit-Info.plist */,
+				23A717E41951CDBD00FFEB8F /* InfoPlist.strings */,
+				23A717E71951CDBD00FFEB8F /* main.m */,
+				23A717E91951CDBD00FFEB8F /* Ribbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23A717FA1951CDBD00FFEB8F /* RibbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				23A718001951CDBD00FFEB8F /* RibbitTests.m */,
+				23A717FB1951CDBD00FFEB8F /* Supporting Files */,
+			);
+			path = RibbitTests;
+			sourceTree = "<group>";
+		};
+		23A717FB1951CDBD00FFEB8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23A717FC1951CDBD00FFEB8F /* RibbitTests-Info.plist */,
+				23A717FD1951CDBD00FFEB8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23A717D71951CDBD00FFEB8F /* Ribbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A718041951CDBD00FFEB8F /* Build configuration list for PBXNativeTarget "Ribbit" */;
+			buildPhases = (
+				23A717D41951CDBD00FFEB8F /* Sources */,
+				23A717D51951CDBD00FFEB8F /* Frameworks */,
+				23A717D61951CDBD00FFEB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ribbit;
+			productName = Ribbit;
+			productReference = 23A717D81951CDBD00FFEB8F /* Ribbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23A717F21951CDBD00FFEB8F /* RibbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A718071951CDBD00FFEB8F /* Build configuration list for PBXNativeTarget "RibbitTests" */;
+			buildPhases = (
+				23A717EF1951CDBD00FFEB8F /* Sources */,
+				23A717F01951CDBD00FFEB8F /* Frameworks */,
+				23A717F11951CDBD00FFEB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23A717F91951CDBD00FFEB8F /* PBXTargetDependency */,
+			);
+			name = RibbitTests;
+			productName = RibbitTests;
+			productReference = 23A717F31951CDBD00FFEB8F /* RibbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23A717D01951CDBD00FFEB8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jake;
+				TargetAttributes = {
+					23A717F21951CDBD00FFEB8F = {
+						TestTargetID = 23A717D71951CDBD00FFEB8F;
+					};
+				};
+			};
+			buildConfigurationList = 23A717D31951CDBD00FFEB8F /* Build configuration list for PBXProject "Ribbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23A717CF1951CDBD00FFEB8F;
+			productRefGroup = 23A717D91951CDBD00FFEB8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23A717D71951CDBD00FFEB8F /* Ribbit */,
+				23A717F21951CDBD00FFEB8F /* RibbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23A717D61951CDBD00FFEB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A7180B1951CDCE00FFEB8F /* Main.storyboard in Resources */,
+				23A717E61951CDBD00FFEB8F /* InfoPlist.strings in Resources */,
+				23A717EE1951CDBD00FFEB8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A717F11951CDBD00FFEB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A717FF1951CDBD00FFEB8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23A717D41951CDBD00FFEB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A7183B19520BBF00FFEB8F /* JWFriendsViewController.m in Sources */,
+				23692580195898AA00496CC8 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				23A718351951DED500FFEB8F /* JWSignupViewController.m in Sources */,
+				23A71849195327EB00FFEB8F /* JWImageViewController.m in Sources */,
+				2369258A1958AFDC00496CC8 /* GravatarUrlBuilder.m in Sources */,
+				23A717E81951CDBD00FFEB8F /* main.m in Sources */,
+				23A7181B1951D51500FFEB8F /* JWInboxViewController.m in Sources */,
+				236925861958A6B700496CC8 /* MSCellAccessory.m in Sources */,
+				23A7183E1952175100FFEB8F /* JWCameraViewController.m in Sources */,
+				23A718381951FDED00FFEB8F /* JWEditFriendsViewController.m in Sources */,
+				236925871958A6B700496CC8 /* UIView+AccessViewController.m in Sources */,
+				23A717EC1951CDBD00FFEB8F /* JWAppDelegate.m in Sources */,
+				23A718321951DEC700FFEB8F /* JWLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23A717EF1951CDBD00FFEB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A718011951CDBD00FFEB8F /* RibbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23A717F91951CDBD00FFEB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23A717D71951CDBD00FFEB8F /* Ribbit */;
+			targetProxy = 23A717F81951CDBD00FFEB8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23A717E41951CDBD00FFEB8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A717E51951CDBD00FFEB8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23A717FD1951CDBD00FFEB8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A717FE1951CDBD00FFEB8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23A718021951CDBD00FFEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23A718031951CDBD00FFEB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23A718051951CDBD00FFEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23A718061951CDBD00FFEB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		23A718081951CDBD00FFEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ribbit.app/Ribbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RibbitTests/RibbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23A718091951CDBD00FFEB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ribbit.app/Ribbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				INFOPLIST_FILE = "RibbitTests/RibbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23A717D31951CDBD00FFEB8F /* Build configuration list for PBXProject "Ribbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A718021951CDBD00FFEB8F /* Debug */,
+				23A718031951CDBD00FFEB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23A718041951CDBD00FFEB8F /* Build configuration list for PBXNativeTarget "Ribbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A718051951CDBD00FFEB8F /* Debug */,
+				23A718061951CDBD00FFEB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23A718071951CDBD00FFEB8F /* Build configuration list for PBXNativeTarget "RibbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A718081951CDBD00FFEB8F /* Debug */,
+				23A718091951CDBD00FFEB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23A717D01951CDBD00FFEB8F /* Project object */;
+}
